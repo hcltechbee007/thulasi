@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>SIGN UP</title>
+<style>
+body {
+background-size:1366px 630px;
+}
+</style>
+</head>
+<body background="https://stmed.net/sites/default/files/food-wallpapers-28249-101905.jpg" height="400" width="450">
+<div style="position:absolute; right:350px; left:350px; bottom:90px;top:90px; background-image:url(https://static.vecteezy.com/system/resources/previews/000/228/810/non_2x/vector-bright-orange-diagonal-lines-background.jpg)">
+<center><img src="https://escalantecanyonsmarathon.files.wordpress.com/2017/02/register-button-png-21.png"></center>
+<div style="text-align:center">
+<form>
+<b>First Name:<b><input type="text" name="firstname"><br><br>	
+Last Name:<input type="text" name="lastname"><br><br>
+<!-- country codes (ISO 3166) and Dial codes. -->
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<select name="countryCode" id="">
+		<option  data-countryCode="IN" value="91" selected>India (+91)</option>
+		<option data-countryCode="GB" value="44">UK (+44)</option>
+		<option data-countryCode="AU" value="61">USA (+61)</option>
+		<option data-countryCode="US" value="1">USA (+1)</option>
+	</optgroup>
+</select><br>
+Phone Number:<input type="number" name="phoneno"><br><br>	
+Password:<input type="password" name="password"><br><br>
+Retype Password:<input type="password" name="password"><br><br>
+<a href="https://www.google.co.in/"><button type="button">Sign up</button></a>
+<button type="reset" >Reset</button>
+</div>
+</div>
+</form>
+</body>
+</html>
+
